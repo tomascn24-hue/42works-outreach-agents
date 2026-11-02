@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+.env
+# Real campaign settings and outputs hold client and prospect data.
+config/campaign.json
+leads*.csv
+reports/
+evaluation/

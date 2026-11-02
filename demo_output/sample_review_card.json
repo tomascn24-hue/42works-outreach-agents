@@ -1,0 +1,47 @@
+{
+  "id": 1,
+  "to": "contact0@company000.example.test",
+  "company": "Company000",
+  "touch": 0,
+  "variant": "A",
+  "subject": "A question for Company000",
+  "body": "Hi Alex0,\n\nI read this on your website: Company000 develops logistics software for mid-sized businesses across Canada. DEMO CLAIM: our team builds custom software for growing companies. Would a 15-minute call next week be useful?\n\nBook a time: https://cal.demo.example.test/42works/intro?utm_content=rLvW1aNzeCxF\n\nDemo Sender\n42works (demo)\n-- \n1 Demo Street, Fictional City\nUnsubscribe: https://demo.example.test/u/XMbVTlpm40MakLXWArvhIWRdkYXe7JY_",
+  "sentences": [
+    {
+      "cites": [
+        "F1"
+      ],
+      "kind": "cited",
+      "text": "I read this on your website: Company000 develops logistics software for mid-sized businesses across Canada."
+    },
+    {
+      "cites": [
+        "C1"
+      ],
+      "kind": "cited",
+      "text": "DEMO CLAIM: our team builds custom software for growing companies."
+    },
+    {
+      "cites": [],
+      "kind": "cta",
+      "text": "Would a 15-minute call next week be useful?"
+    }
+  ],
+  "dropped": [
+    {
+      "reason": "numbers not in source: ['2025', '300']",
+      "text": "Company000 grew revenue by 300% in 2025 after working with Microsoft."
+    }
+  ],
+  "sources": {
+    "F1": {
+      "text": "Company000 develops logistics software for mid-sized businesses across Canada.",
+      "source_url": "https://company000.example.test",
+      "fetched_at": "2026-11-02T18:00:00+00:00"
+    },
+    "C1": {
+      "text": "DEMO CLAIM: our team builds custom software for growing companies.",
+      "source_url": "client-approved claims"
+    }
+  }
+}

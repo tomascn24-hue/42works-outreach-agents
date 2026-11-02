@@ -1,0 +1,3 @@
+# The code uses only the Python standard library.
+# Windows has no system time zone database, so zoneinfo needs this package there.
+tzdata; sys_platform == "win32"

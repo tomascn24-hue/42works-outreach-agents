@@ -1,0 +1,32 @@
+{
+  "lead_statuses": {
+    "bounced": 14,
+    "exhausted": 69,
+    "goal_met": 3,
+    "in_sequence": 61,
+    "opted_out": 3
+  },
+  "emails_sent": 500,
+  "delivered": 486,
+  "open_rate": 0.2716049382716049,
+  "response_rate": 0.012345679012345678,
+  "breaches": [],
+  "sentences_dropped": 152,
+  "blocked_attempts": 1,
+  "meetings": 2,
+  "max_sends_per_inbox_in_a_day": 30,
+  "followups_in_same_thread": 350,
+  "followups_sent": 350,
+  "alerts_sent": 5,
+  "proposals_created": 3,
+  "settings_versions": 3,
+  "guidance_after_learning": [
+    "Open with a question about their market."
+  ],
+  "variants_after_learning": [
+    "A"
+  ],
+  "audit_rows": 4519,
+  "audit_chain_intact": true,
+  "simulated": true
+}

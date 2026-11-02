@@ -1,0 +1,50 @@
+{
+  "inboxes": [
+    {"address": "REPLACE@REPLACE.example", "from_name": "REPLACE sender name", "signature": "REPLACE sender name\n42works"}
+  ],
+  "meeting_link": "",
+  "test_recipient": "",
+  "physical_address": "REPLACE with 42works postal address",
+  "unsubscribe_base_url": "https://REPLACE.example/u/",
+  "approved_claims": [
+    {"id": "C1", "text": "REPLACE with a claim approved by 42works"}
+  ],
+  "approved_phrases": {
+    "greeting": "Hi {first_name},",
+    "opener": [],
+    "cta": [
+      "Would a 15-minute call next week be useful?",
+      "Is this worth a short conversation?"
+    ],
+    "follow_up": [
+      "I wanted to follow up on my earlier note.",
+      "One last note from me on this."
+    ]
+  },
+  "subject_variants": {
+    "A": "A question for {company}",
+    "B": "{first_name}, a quick question"
+  },
+  "cadence_days": [3, 7, 14],
+  "daily_cap_per_inbox": 30,
+  "warmup": [5, 10, 15, 20, 25, 30],
+  "per_domain_daily_cap": 2,
+  "campaign_total_cap": 500,
+  "max_words": 150,
+  "send_window_local": [9, 17],
+  "default_timezone": "America/Toronto",
+  "send_weekdays": [0, 1, 2, 3, 4],
+  "banned_phrases": [
+    "guarantee", "risk[- ]free", "\\bfree\\b", "discount", "\\b\\d+\\s?% off\\b", "act now", "limited time",
+    "best in the (world|industry)", "\\bno\\.? ?1\\b", "#1"
+  ],
+  "allowed_link_domains": [],
+  "writer_guidance": [],
+  "min_overlap": 1.0,
+  "min_sample_per_variant": 50,
+  "best_practices": {
+    "max_body_words": 120,
+    "max_subject_chars": 60,
+    "source": "Team-curated targets. Review and update these by hand before the pilot."
+  }
+}
